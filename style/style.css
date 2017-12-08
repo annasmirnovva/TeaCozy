@@ -5,6 +5,7 @@ body{
   background-color: black;
   opacity:0.9;
   text-align: center;
+  margin: 0px;
 }
 .header{
   display: flex;
@@ -12,16 +13,35 @@ body{
   align-items: center;
   border-bottom: 1px solid seashell;
   height: 69px;
+  position: fixed;
+  background-color: inherit;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
 }
 .logo img{
+  display: block;
   margin-left: 10px;
   height: 50px;
 }
-.menu{
-  display: flex;
-  justify-content: space-between;
+nav{
+  display:block;
+  margin-right: 10px;
 }
-.menu span{
+nav span{
   text-decoration: underline;
   margin: 10px;
+}
+.mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin-top: 70px;
+}
+.missiontext{
+  display:block;
+  background-color: black;
+  width: 100%;
 }
