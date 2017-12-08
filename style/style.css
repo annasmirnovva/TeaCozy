@@ -14,10 +14,10 @@ body{
   border-bottom: 1px solid seashell;
   height: 69px;
   position: fixed;
-  background-color: inherit;
+  background-color: black;
   width: 100%;
   z-index: 1;
-  margin: 0;
+  margin: 0px;
 }
 .logo img{
   display: block;
