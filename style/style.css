@@ -16,8 +16,7 @@ body{
   position: fixed;
   background-color: black;
   width: 100%;
-  z-index: 1;
-  margin: 0px;
+  top: 0;
 }
 .logo img{
   display: block;
@@ -44,4 +43,49 @@ nav span{
   display:block;
   background-color: black;
   width: 100%;
+}
+.teatext{
+  display:block;
+  text-align: center;
+  margin: 0;
+  padding:10px;
+  width: 1200px;
+}
+.teaofthemonth{
+  display: flex;
+  width:1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.teaofthemonth img{
+  width: 300px;
+  height: 200px;
+  margin-right: 25px;
+}
+.teaofthemonth h4{
+  margin-top: 10px;
+}
+.teatext{
+  display: block;
+}
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+.locations h2{
+  margin-bottom: 0;
+}
+.addresses{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.address{
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  opacity:1;
 }
