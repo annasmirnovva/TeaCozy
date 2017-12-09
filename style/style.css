@@ -5,7 +5,7 @@ body{
   background-color: black;
   opacity:0.9;
   text-align: center;
-  margin: 0px;
+  margin: 0;
 }
 .header{
   display: flex;
@@ -30,6 +30,9 @@ nav{
 nav span{
   text-decoration: underline;
   margin: 10px;
+}
+nav span a{
+  color:seashell;
 }
 .mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
